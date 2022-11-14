@@ -1,0 +1,369 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+	position: sticky;
+	/* background-color: antiquewhite; */
+	height: 60px;
+	width: 100%;
+}
+
+.logo {
+	position: relative;
+	height: 60px;
+	float: left;
+	width: 25%;
+	background-color: white;
+}
+
+.logolink {
+	border-bottom: 0px;
+
+}
+
+.bb {
+	height: 60px;
+}
+
+h3 {
+	position: relative;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	line-height: 30px;
+	margin: 0px;
+	text-align: center;
+}
+
+.nav {
+	position: relative;
+	float: left;
+	width: 50%;
+	background-color: #00BDFE;
+	height: 60px;
+	display:flex;
+}
+
+.navli {
+	margin-left: 50px;
+}
+
+.mainli {
+	list-style: none;
+	display: inline-flex;
+	margin: 20px;
+	color: white;
+}
+
+/* .sub {
+	list-style: none;
+	visibility: hidden;
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+}
+
+.sub1 {
+	list-style: none;
+	visibility: hidden;
+
+}
+
+.mainli:hover .sub .sub1 {
+	visibility: visible;
+} */
+
+.button {
+	position: relative;
+	line-height: 60px;
+	text-align: center;
+}
+
+#but1 {
+	background-color: white;
+	border: 2px solid #00BDFE;
+	color: #00BDFE;
+	width: 150px;
+	height: 40px;
+	border-radius: 30px;
+	border-color: #00BDFE;
+	font-size: 15px;
+}
+
+#but1:hover {
+	background-color: #00BDFE;
+	color: white;
+}
+
+#useri {
+	position: absolute;
+	color: #00BDFE;
+	line-height: 60px;
+	float: left;
+	left: 110px;
+}
+
+.button {
+	position: relative;
+	float: left;
+	width: 25%;
+	background-color: white;
+	height: 60px;
+}
+
+.button:hover {
+	background-color: #00BDFE;
+	color: white;
+}
+
+.img1 {
+	position: relative;
+	width: 100%;
+	height: 700px;
+	opacity: .8;
+
+}
+
+.para1 {
+	position: absolute;
+	top: 300px;
+	font-size: 25px;
+	width: 100%;
+	color: whitesmoke;
+}
+
+hr {
+	width: 80%;
+	margin: 30px;
+}
+
+#secpara1 {
+	/* style="color: whitesmoke;" */
+	color: whitesmoke;
+}
+
+.mbutmain {
+	position: relative;
+	left: 389px;
+	height: 60px;
+}
+
+.mbut {
+	position: absolute;
+	/* background-color: gray; */
+	width: 450px;
+	height: 60px;
+	top: 550px;
+	opacity: .9;
+	border-radius: 20px;
+}
+
+#mbut1 {
+	position: relative;
+	width: 200px;
+	height: 50px;
+	float: left;
+	margin: 5px;
+	background-color: transparent;
+	color: white;
+	border: 2px solid white;
+	border-radius: 30px;
+	font-size: medium;
+}
+
+#mbut1:hover {
+	background-color: white;
+	color: #00BDFE;
+	font-size: large;
+}
+
+#mbut2 {
+	position: relative;
+	width: 200px;
+	height: 50px;
+	float: left;
+	margin: 5px;
+	background-color: transparent;
+	color: white;
+	border: 0px;
+	font-size: medium;
+}
+
+#mbut2:hover {
+	color: #00BDFE;
+	border: 2px solid white;
+	font-size: large;
+	border-radius: 30px;
+	background-color: white;
+}
+
+#igi1 {
+	background-image: linear-gradient(gray, white);
+	position: absolute;
+	float: left;
+	width: 30%;
+	height: 300px;
+	top: 610px;
+	margin: 3%;
+	border-radius: 10%;
+	border: 3px solid white;
+}
+
+.igi1 {
+	position: absolute;
+	float: left;
+	width: 30%;
+	height: 300px;
+	top: 610px;
+	margin: 3%;
+	border-radius: 10%;
+	visibility: visible;
+}
+
+#igi1:hover {
+	visibility: hidden;
+}
+
+.igi2 {
+	position: absolute;
+	float: left;
+	width: 30%;
+	height: 300px;
+	top: 610px;
+	left: 33%; 
+	margin: 3%;
+	border-radius: 10%;
+}
+
+#igi2 {
+	background-image: linear-gradient(gray, white);
+	position: absolute;
+	float: left;
+	width: 30%;
+	height: 300px;
+	top: 610px;
+	left: 33%;
+	margin: 3%;
+	border-radius: 10%;
+	border: 3px solid white;
+}
+
+#igi2:hover {
+	visibility: hidden;
+}
+
+.igi3 {
+	position: absolute;
+	float: left;
+	width: 30%;
+	height: 300px;
+	top: 610px;
+	left: 66%;
+	margin: 3%;
+	border-radius: 10%;
+}
+
+#igi3 {
+	background-image: linear-gradient(gray, white);
+	position: absolute;
+	float: left;
+	width: 30%;
+	height: 300px;
+	top: 610px;
+	left: 66%;
+	margin: 3%;
+	border-radius: 10%;
+	border: 3px solid white;
+}
+
+#igi3:hover {
+	visibility: hidden;
+}
+
+/* .write1 {
+	position: absolute;
+	left: 90px;
+	font-size: 80px;
+}
+
+.subi1 {
+	visibility: hidden;
+} */
+
+.catmain {
+	background-image: linear-gradient(white, gray);
+	position: relative;
+	top: 100px;
+	/* margin: 50px; */
+	padding: 50px;
+	padding-bottom: 50px;
+}
+
+.catsub1 {
+	/* float: left; */
+	margin: 50px;
+	font-size: xx-large;
+}
+
+.catsub2 {
+	/* float: left; */
+	margin: 50px;
+}
+
+#catsub2 {
+	position: relative;
+	width: 250px;
+	height: 50px;
+	/* left: 100px; */
+	border: 0px;
+	background-color: #00BDFE;
+	color: white;
+	font-size: large;
+	border-radius: 30px;
+}
+
+#catsub2:hover {
+	background-color: white;
+	color: #00BDFE;
+	border: 2px solid #00BDFE;
+	font-size: larger;
+}
+
+.catsub3 {
+	position: absolute;
+	float: left;
+	top: 100px;
+	left: 700px;
+}
+
+#catsub3 {
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	border-radius: 30px;
+	filter: grayscale(100);
+}
+
+#catsub3:hover {
+	filter: grayscale(0);
+}
+
+.footer {
+	position: relative;
+	width: 100%;
+	height: 100px;
+	color: #00BDFE;
+	float: left;
+	top: 100px;
+	background-image: linear-gradient(grey, white);
+}
+
+#footline {
+	position: relative;
+	line-height: 100px;
+	font-size: x-large;
+	color: gray;
+	left: 300px;
+}
